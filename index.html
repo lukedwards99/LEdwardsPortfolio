@@ -48,7 +48,32 @@
                 </div>
             </div>
             <div class="col-lg d-flex align-items-center">
-                <img src="img/me.jpg" style="width: 90%"/>
+                <div id="carouselLukePicturesControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div style="height: 500px;">
+                            <img src="img/me.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div style="height: 500px;">
+                            <div style="height: 75px;"></div>
+                            <img src="img/SpeechAndDebate.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <!-- <div class="carousel-item">
+                        <img src="img/Heart1.PNG" class="d-block w-100" alt="...">
+                      </div> -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselLukePicturesControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselLukePicturesControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
         </div>
     </div>
@@ -56,7 +81,14 @@
     <div class="container" id="ProjectsSection">
         <h2>Personal Projects</h2>
         <div class="d-flex justify-content-center">
-            <p class="text-muted"><i>Please note this is not an exhaustive list of my experience just some projects I would like to highlight. </i></p>
+            <p class="text-muted mb-0">
+                <i>Please note this is not an exhaustive list of my experience just some projects I would like to highlight. </i>
+            </p>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="text-muted">
+                <i><b>In fact most of three projects were built outside of class in about a months time!</b></i>
+            </p>
         </div>
         <div class="row justify-content-between">
             <div class="col-md">
@@ -75,8 +107,8 @@
                     </div>
                 </div>
                 <div class="card m-4">
-                    <h3 class="card-header">ASTROIDS</h3>
-                    <img src="img/astroids.PNG" class="card-img-top" alt="astroids image">
+                    <h3 class="card-header">ASTEROIDS</h3>
+                    <img src="img/astroids.PNG" class="card-img-top" alt="asteroids image">
                     <div class="card-body">
                         <p class="card-text">
                             This was my second JavaScript project to build on the knowledge I learned building the Space Intruders game. 
@@ -101,6 +133,23 @@
                     </div>
                     <div class="card-body">
                         <a href="https://github.com/lukedwards99/ChessGameNET" class="card-link">GitHub</a>
+                    </div>
+                </div>
+                <div class="card m-4">
+                    <h3 class="card-header">MAZE SOLVER</h3>
+                    <img src="img/MazeSolver.PNG" class="card-img-top" alt="space image">
+                    <div class="card-body">
+                        <p class="card-text">
+                            After working on Space Intruders and Asteroids I wanted to do something a little more algorithm based so I made a simple maze solver.
+                            For this project I brought in some extra libraries such as jQuery and Bootstrap to make it look a little better than the past projects.
+                        </p>
+                        <div class="alert alert-warning fade show" role="alert">
+                            This project is currently still a work in progress as I add more algorithms and animations.
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/lukedwards99/javascriptprojects" class="card-link">GitHub</a>
+                        <a href="https://students.cs.niu.edu/~z1861935/javascriptprojects/maze-solver/" class="card-link">Live Link</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +196,7 @@
                         <p class="card-text">
                             I have been a member of a research team since fall of 2021 researching intelligent tutoring systems and gamification.
                             This project has required extensive use of many technologies such as: Unity, C#, GIMP and others. I also built
-                            the website for the project
+                            the website for the project.
                         </p>
                     </div>
                     <div class="card-body">
@@ -160,7 +209,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - Portfolio - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2022 - Lucas Edwards
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
